@@ -13,6 +13,8 @@ module.exports = class ToughtsController {
             UserId: req.session.userid
         }
 
+        console.log('oi')
+
         try{
         await Tought.create(tought)
 
